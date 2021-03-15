@@ -1,0 +1,63 @@
+#question {
+  color: darkcyan;
+  font-family: 'Pangolin', cursive;
+}
+
+
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+   
+  }
+  
+  .choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color:darkcyan;
+    color: white;
+    font-family: 'Pangolin', cursive;
+    
+  }
+  
+  .choice-text {
+    padding: 2rem;
+    width: 100%;
+    font-family: 'Pangolin', cursive bold;
+color: darkcyan ;
+  }
+
+  .hud-text {
+    font-family: 'Merriweather', serif;
+  }
+
+  .hud-text:hover {
+    color: blanchedalmond;
+  }
+
+  .hud-prefix {
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  .hud-prefix:hover {
+    color: blanchedalmond;
+  }
+  .correct {
+    background-color: darkgreen;
+  }
+
+  .incorrect {
+    background-color: darkred;
+  }
+
+  

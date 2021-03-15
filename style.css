@@ -1,0 +1,150 @@
+html {
+    background-color:black;
+   
+}
+
+*{
+     box-sizing: border-box;
+     font-family: "Lucida Console", "Courier New", monospace;
+     margin-top: 20px;
+     padding: 0%;
+     background-color: black;
+  
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+   
+    margin-bottom: 1rem;
+}    
+
+h1 {
+    font-size: 5rem;
+    color:darkcyan;
+    margin-bottom: 5rem;
+}
+ 
+h1 > span {
+    font-size: 2rem;
+    font-weight: 350;
+}
+
+h2 {
+    font-size: 4rem;
+margin-bottom: 4rem;
+font-weight: 600;
+}
+
+h3 {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.container {
+ width: 100%;
+ height: 100%;  
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ max-width: 80rem;
+ margin: 0 auto;
+ padding: 2rem;
+ 
+}
+
+.container > * {
+    width: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid darkcyan;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: darkcyan;
+    background-color: white;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+
+  .hud {
+      display: flex;
+      justify-content: space-between;
+  }
+
+ 
+  .hud-prefix{
+      font-size: 2rem;
+      color: darkcyan ;
+      text-align: center;
+  }
+
+  .hud-text{
+      font-size: 3rem;;
+  }
+
+  /* end page */
+  input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  color: darkcyan;
+}
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input::placeholder {
+      color: #aaa;
+      text-align: center;
+  }
+
+  .finalScore {
+    font-family: 'Merriweather', serif;
+  }
